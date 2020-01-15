@@ -1,0 +1,95 @@
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 30%;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    box-sizing: border-box;
+
+
+}
+
+.subcontainer {
+    height: 300px;
+    width: 600px;
+    background: grey;
+    box-sizing: border-box;
+
+
+}
+
+.blocco {
+    background: white;
+    border: 5px;
+    height: 300px;
+    width: 200px;
+    padding: 5px;
+
+
+
+
+
+}
+
+.buno {
+
+    position: relative;
+
+
+}
+
+.bdue {
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+
+
+}
+
+.btre {
+    position: relative;
+    left: 400px;
+    bottom: 600px;
+
+
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    background-color: grey;
+}
+
+.sconto {
+    background-color: green;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.cinque{
+    background-color: orange;
+}
+
+.cuore {
+
+    position: absolute;
+    bottom: 5px;
+    right: 50%;
+    color: white;
+
+}
+
+.cuore:hover{
+    color: red;
+}
+
+.cuore:hover{
+    cursor: pointer;
+}
